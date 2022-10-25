@@ -6,10 +6,17 @@
 		<item value="/media/psf/SmartGit/blackmagic_test"/>
 	</list>
 	<section name="CleanDialogSettings">
-		<item value="569" key="DIALOG_WIDTH"/>
-		<item value="true" key="TOGGLE_SELECTED"/>
-		<item value="418" key="DIALOG_HEIGHT"/>
-		<item value="591" key="DIALOG_X_ORIGIN"/>
-		<item value="273" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="569"/>
+		<item key="TOGGLE_SELECTED" value="true"/>
+		<item key="DIALOG_HEIGHT" value="418"/>
+		<item key="DIALOG_X_ORIGIN" value="591"/>
+		<item key="DIALOG_Y_ORIGIN" value="273"/>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="160"/>
+		<item key="DIALOG_Y_ORIGIN" value="126"/>
+		<item key="DIALOG_WIDTH" value="613"/>
+		<item key="DIALOG_HEIGHT" value="602"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
 	</section>
 </section>
