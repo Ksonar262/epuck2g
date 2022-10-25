@@ -1,0 +1,10 @@
+23:10:07 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mLinking build/Project_template.elf[0m
+d:/foundation of robotics/e puck 2/eclipse_e-puck2/tools/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld.exe:.\libssp_nonshared.a: file format not recognized; treating as linker script
+d:/foundation of robotics/e puck 2/eclipse_e-puck2/tools/gcc-arm-none-eabi-7-2017-q4-major-win32/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld.exe:.\libssp_nonshared.a:1: syntax error
+collect2.exe: error: ld returned 1 exit status
+make: *** [build/Project_template.elf] Error 1
+
+23:10:19 Build Finished (took 11s.443ms)
+
