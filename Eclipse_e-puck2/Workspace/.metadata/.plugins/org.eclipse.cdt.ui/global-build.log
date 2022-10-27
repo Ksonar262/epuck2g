@@ -1,42 +1,32 @@
-10:46:37 **** Incremental Build of configuration Default for project MyProject ****
+12:50:47 **** Incremental Build of configuration Default for project MyProject ****
 make all 
 [1;34mCompiling main.c[0m
 main.c: In function 'main':
-main.c:28:5: warning: implicit declaration of function 'serial_start'; did you mean 'spi_lld_start'? [-Wimplicit-function-declaration]
-     serial_start();
-     ^~~~~~~~~~~~
-     spi_lld_start
-main.c:42:9: warning: implicit declaration of function 'e_send_uart1_char' [-Wimplicit-function-declaration]
-         e_send_uart1_char(str, str_length);
-         ^~~~~~~~~~~~~~~~~
-main.c:40:13: warning: unused variable 'value' [-Wunused-variable]
-         int value = 10;
+main.c:52:13: warning: unused variable 'prox5' [-Wunused-variable]
+         int prox5 = get_calibrated_prox(5);
              ^~~~~
-main.c:39:13: warning: unused variable 'light1' [-Wunused-variable]
-         int light1 = get_ambient_light(1);
-             ^~~~~~
-main.c:38:13: warning: unused variable 'cal1' [-Wunused-variable]
-         int cal1 = get_calibrated_prox(1);
-             ^~~~
+main.c:51:13: warning: unused variable 'prox4' [-Wunused-variable]
+         int prox4 = get_calibrated_prox(4);
+             ^~~~~
+main.c:50:13: warning: unused variable 'prox3' [-Wunused-variable]
+         int prox3 = get_calibrated_prox(3);
+             ^~~~~
+main.c:49:13: warning: unused variable 'prox2' [-Wunused-variable]
+         int prox2 = get_calibrated_prox(2);
+             ^~~~~
+main.c:38:9: warning: unused variable 'str_length1' [-Wunused-variable]
+     int str_length1;
+         ^~~~~~~~~~~
 [1;34mLinking build/Project_template.elf[0m
 [1;34mCreating build/Project_template.hex[0m
 [1;34mCreating build/Project_template.bin[0m
 [1;34mCreating build/Project_template.dmp[0m
 
    text	   data	    bss	    dec	    hex	filename
-  54724	   2996	   7780	  65500	   ffdc	build/Project_template.elf
+  56932	   2996	   7852	  67780	  108c4	build/Project_template.elf
 [1;34mCreating build/Project_template.list[0m
 
 [1;34mDone[0m
-10:46:45 **** Incremental Build of configuration Default for project MyProject ****
-make all 
-make: Nothing to be done for 'all'.
-10:46:55 **** Incremental Build of configuration Default for project MyProject ****
-make all 
-make: Nothing to be done for 'all'.
-10:47:47 **** Incremental Build of configuration Default for project MyProject ****
-make all 
-make: Nothing to be done for 'all'.
-10:55:05 **** Incremental Build of configuration Default for project MyProject ****
+12:51:05 **** Incremental Build of configuration Default for project MyProject ****
 make all 
 make: Nothing to be done for 'all'.
