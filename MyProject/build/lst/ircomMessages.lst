@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccOGboJo.s 			page 1
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
   55 001e 9A42     		cmp	r2, r3
   56 0020 02D1     		bne	.L5
   57 0022 03B0     		add	sp, sp, #12
-ARM GAS  /tmp/ccOGboJo.s 			page 2
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 2
 
 
   58              		.cfi_remember_state
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  112 001a B060     		str	r0, [r6, #8]
  113              		.loc 1 36 0
  114 001c D3F89C01 		ldr	r0, [r3, #412]
-ARM GAS  /tmp/ccOGboJo.s 			page 3
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 3
 
 
  115              	.LVL2:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  169 0092 D3F89811 		ldr	r1, [r3, #408]
  170 0096 0131     		adds	r1, r1, #1
  171 0098 85FB0125 		smull	r2, r5, r5, r1
-ARM GAS  /tmp/ccOGboJo.s 			page 4
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 4
 
 
  172 009c CA17     		asrs	r2, r1, #31
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  226              		.loc 1 69 0
  227 0018 244A     		ldr	r2, .L24+8
  228              		.loc 1 63 0
-ARM GAS  /tmp/ccOGboJo.s 			page 5
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 5
 
 
  229 001a 01EB8101 		add	r1, r1, r1, lsl #2
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  283              	.L22:
  284              		.cfi_restore_state
  285              		.loc 1 58 0
-ARM GAS  /tmp/ccOGboJo.s 			page 6
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 6
 
 
  286 0098 4FF0FF33 		mov	r3, #-1
@@ -321,8 +321,8 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  303              		.size	ircomPopMessage, .-ircomPopMessage
  304              		.text
  305              	.Letext0:
- 306              		.file 2 "/home/uos/Documents/epuck2g/epuck2g/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-maj
- 307              		.file 3 "/home/uos/Documents/epuck2g/epuck2g/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-maj
+ 306              		.file 2 "d:\\foundation of robotics\\e puck 2\\eclipse_e-puck2_win32_29_jan_2020\\eclipse_e-puck2\
+ 307              		.file 3 "d:\\foundation of robotics\\e puck 2\\eclipse_e-puck2_win32_29_jan_2020\\eclipse_e-puck2\
  308              		.file 4 "../e-puck2_main-processor/src/ircom/ircom.h"
  309              		.section	.debug_info,"",%progbits
  310              	.Ldebug_info0:
@@ -331,10 +331,10 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  313 0006 00000000 		.4byte	.Ldebug_abbrev0
  314 000a 04       		.byte	0x4
  315 000b 01       		.uleb128 0x1
- 316 000c 8F020000 		.4byte	.LASF60
+ 316 000c 9E020000 		.4byte	.LASF60
  317 0010 0C       		.byte	0xc
- 318 0011 1A040000 		.4byte	.LASF61
- 319 0015 A7010000 		.4byte	.LASF62
+ 318 0011 29040000 		.4byte	.LASF61
+ 319 0015 21010000 		.4byte	.LASF62
  320 0019 00000000 		.4byte	.Ldebug_ranges0+0
  321 001d 00000000 		.4byte	0
  322 0021 00000000 		.4byte	.Ldebug_line0
@@ -345,7 +345,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  327 002c 02       		.uleb128 0x2
  328 002d 01       		.byte	0x1
  329 002e 06       		.byte	0x6
- 330 002f 61010000 		.4byte	.LASF1
+ 330 002f 9F010000 		.4byte	.LASF1
  331 0033 03       		.uleb128 0x3
  332 0034 F4000000 		.4byte	.LASF3
  333 0038 02       		.byte	0x2
@@ -354,11 +354,11 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  336 003e 02       		.uleb128 0x2
  337 003f 01       		.byte	0x1
  338 0040 08       		.byte	0x8
- 339 0041 2B010000 		.4byte	.LASF2
+ 339 0041 69010000 		.4byte	.LASF2
  340 0045 03       		.uleb128 0x3
- 341 0046 E6030000 		.4byte	.LASF4
+ 341 0046 F5030000 		.4byte	.LASF4
  342 004a 02       		.byte	0x2
-ARM GAS  /tmp/ccOGboJo.s 			page 7
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 7
 
 
  343 004b 37       		.byte	0x37
@@ -370,7 +370,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  349 0057 02       		.uleb128 0x2
  350 0058 02       		.byte	0x2
  351 0059 07       		.byte	0x7
- 352 005a 00020000 		.4byte	.LASF6
+ 352 005a 0F020000 		.4byte	.LASF6
  353 005e 02       		.uleb128 0x2
  354 005f 04       		.byte	0x4
  355 0060 05       		.byte	0x5
@@ -378,7 +378,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  357 0065 02       		.uleb128 0x2
  358 0066 04       		.byte	0x4
  359 0067 07       		.byte	0x7
- 360 0068 50020000 		.4byte	.LASF8
+ 360 0068 5F020000 		.4byte	.LASF8
  361 006c 02       		.uleb128 0x2
  362 006d 08       		.byte	0x8
  363 006e 05       		.byte	0x5
@@ -386,7 +386,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  365 0073 02       		.uleb128 0x2
  366 0074 08       		.byte	0x8
  367 0075 07       		.byte	0x7
- 368 0076 6D010000 		.4byte	.LASF10
+ 368 0076 AB010000 		.4byte	.LASF10
  369 007a 04       		.uleb128 0x4
  370 007b 04       		.byte	0x4
  371 007c 05       		.byte	0x5
@@ -394,7 +394,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  373 0081 02       		.uleb128 0x2
  374 0082 04       		.byte	0x4
  375 0083 07       		.byte	0x7
- 376 0084 94010000 		.4byte	.LASF11
+ 376 0084 D2010000 		.4byte	.LASF11
  377 0088 05       		.uleb128 0x5
  378 0089 81000000 		.4byte	0x81
  379 008d 03       		.uleb128 0x3
@@ -405,12 +405,12 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  384 0098 05       		.uleb128 0x5
  385 0099 8D000000 		.4byte	0x8d
  386 009d 03       		.uleb128 0x3
- 387 009e 21020000 		.4byte	.LASF13
+ 387 009e 30020000 		.4byte	.LASF13
  388 00a2 03       		.byte	0x3
  389 00a3 20       		.byte	0x20
  390 00a4 45000000 		.4byte	0x45
  391 00a8 03       		.uleb128 0x3
- 392 00a9 7F020000 		.4byte	.LASF14
+ 392 00a9 8E020000 		.4byte	.LASF14
  393 00ad 04       		.byte	0x4
  394 00ae 19       		.byte	0x19
  395 00af B3000000 		.4byte	0xb3
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  397 00b4 C3000000 		.4byte	0xc3
  398 00b8 C3000000 		.4byte	0xc3
  399 00bc 07       		.uleb128 0x7
-ARM GAS  /tmp/ccOGboJo.s 			page 8
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 8
 
 
  400 00bd 81000000 		.4byte	0x81
@@ -427,7 +427,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  403 00c3 02       		.uleb128 0x2
  404 00c4 01       		.byte	0x1
  405 00c5 08       		.byte	0x8
- 406 00c6 13020000 		.4byte	.LASF15
+ 406 00c6 22020000 		.4byte	.LASF15
  407 00ca 08       		.uleb128 0x8
  408 00cb 14       		.byte	0x14
  409 00cc 04       		.byte	0x4
@@ -440,7 +440,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  416 00d9 5E000000 		.4byte	0x5e
  417 00dd 00       		.byte	0
  418 00de 09       		.uleb128 0x9
- 419 00df 18020000 		.4byte	.LASF17
+ 419 00df 27020000 		.4byte	.LASF17
  420 00e3 04       		.byte	0x4
  421 00e4 1F       		.byte	0x1f
  422 00e5 25000000 		.4byte	0x25
@@ -458,14 +458,14 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  434 00fd 7A000000 		.4byte	0x7a
  435 0101 0C       		.byte	0xc
  436 0102 09       		.uleb128 0x9
- 437 0103 A1010000 		.4byte	.LASF20
+ 437 0103 DF010000 		.4byte	.LASF20
  438 0107 04       		.byte	0x4
  439 0108 22       		.byte	0x22
  440 0109 7A000000 		.4byte	0x7a
  441 010d 10       		.byte	0x10
  442 010e 00       		.byte	0
  443 010f 03       		.uleb128 0x3
- 444 0110 0D040000 		.4byte	.LASF21
+ 444 0110 1C040000 		.4byte	.LASF21
  445 0114 04       		.byte	0x4
  446 0115 23       		.byte	0x23
  447 0116 CA000000 		.4byte	0xca
@@ -475,10 +475,10 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  451 011e 2B       		.byte	0x2b
  452 011f 7C010000 		.4byte	0x17c
  453 0123 09       		.uleb128 0x9
- 454 0124 5F040000 		.4byte	.LASF22
+ 454 0124 6E040000 		.4byte	.LASF22
  455 0128 04       		.byte	0x4
  456 0129 2D       		.byte	0x2d
-ARM GAS  /tmp/ccOGboJo.s 			page 9
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 9
 
 
  457 012a 7A000000 		.4byte	0x7a
@@ -496,13 +496,13 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  469 0142 7C010000 		.4byte	0x17c
  470 0146 08       		.byte	0x8
  471 0147 0C       		.uleb128 0xc
- 472 0148 53010000 		.4byte	.LASF24
+ 472 0148 91010000 		.4byte	.LASF24
  473 014c 04       		.byte	0x4
  474 014d 31       		.byte	0x31
  475 014e 7A000000 		.4byte	0x7a
  476 0152 9801     		.2byte	0x198
  477 0154 0C       		.uleb128 0xc
- 478 0155 44020000 		.4byte	.LASF25
+ 478 0155 53020000 		.4byte	.LASF25
  479 0159 04       		.byte	0x4
  480 015a 32       		.byte	0x32
  481 015b 7A000000 		.4byte	0x7a
@@ -514,7 +514,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  487 0168 7A000000 		.4byte	0x7a
  488 016c A001     		.2byte	0x1a0
  489 016e 0C       		.uleb128 0xc
- 490 016f FB010000 		.4byte	.LASF27
+ 490 016f 0A020000 		.4byte	.LASF27
  491 0173 04       		.byte	0x4
  492 0174 35       		.byte	0x35
  493 0175 5E000000 		.4byte	0x5e
@@ -528,7 +528,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  501 018a 13       		.byte	0x13
  502 018b 00       		.byte	0
  503 018c 03       		.uleb128 0x3
- 504 018d 89020000 		.4byte	.LASF28
+ 504 018d 98020000 		.4byte	.LASF28
  505 0191 04       		.byte	0x4
  506 0192 36       		.byte	0x36
  507 0193 1A010000 		.4byte	0x11a
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  511 019d 30       		.byte	0x30
  512 019e 04       		.byte	0x4
  513 019f 39       		.byte	0x39
-ARM GAS  /tmp/ccOGboJo.s 			page 10
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 10
 
 
  514 01a0 1D020000 		.4byte	0x21d
@@ -549,13 +549,13 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  519 01ab 7A000000 		.4byte	0x7a
  520 01af 00       		.byte	0
  521 01b0 09       		.uleb128 0x9
- 522 01b1 4E010000 		.4byte	.LASF30
+ 522 01b1 8C010000 		.4byte	.LASF30
  523 01b5 04       		.byte	0x4
  524 01b6 3D       		.byte	0x3d
  525 01b7 7A000000 		.4byte	0x7a
  526 01bb 04       		.byte	0x4
  527 01bc 09       		.uleb128 0x9
- 528 01bd A1010000 		.4byte	.LASF20
+ 528 01bd DF010000 		.4byte	.LASF20
  529 01c1 04       		.byte	0x4
  530 01c2 3E       		.byte	0x3e
  531 01c3 7A000000 		.4byte	0x7a
@@ -567,7 +567,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  537 01cf A8000000 		.4byte	0xa8
  538 01d3 0C       		.byte	0xc
  539 01d4 09       		.uleb128 0x9
- 540 01d5 18020000 		.4byte	.LASF17
+ 540 01d5 27020000 		.4byte	.LASF17
  541 01d9 04       		.byte	0x4
  542 01da 40       		.byte	0x40
  543 01db 25000000 		.4byte	0x25
@@ -597,8 +597,8 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  567 020b 7A000000 		.4byte	0x7a
  568 020f 28       		.byte	0x28
  569 0210 09       		.uleb128 0x9
- 570 0211 E7010000 		.4byte	.LASF34
-ARM GAS  /tmp/ccOGboJo.s 			page 11
+ 570 0211 F6010000 		.4byte	.LASF34
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 11
 
 
  571 0215 04       		.byte	0x4
@@ -619,7 +619,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  586 0230 4E       		.byte	0x4e
  587 0231 F6020000 		.4byte	0x2f6
  588 0235 09       		.uleb128 0x9
- 589 0236 4E010000 		.4byte	.LASF30
+ 589 0236 8C010000 		.4byte	.LASF30
  590 023a 04       		.byte	0x4
  591 023b 51       		.byte	0x51
  592 023c 7A000000 		.4byte	0x7a
@@ -631,7 +631,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  598 0248 A8000000 		.4byte	0xa8
  599 024c 04       		.byte	0x4
  600 024d 09       		.uleb128 0x9
- 601 024e 84010000 		.4byte	.LASF36
+ 601 024e C2010000 		.4byte	.LASF36
  602 0252 04       		.byte	0x4
  603 0253 53       		.byte	0x53
  604 0254 7A000000 		.4byte	0x7a
@@ -643,7 +643,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  610 0260 7A000000 		.4byte	0x7a
  611 0264 14       		.byte	0x14
  612 0265 09       		.uleb128 0x9
- 613 0266 89010000 		.4byte	.LASF38
+ 613 0266 C7010000 		.4byte	.LASF38
  614 026a 04       		.byte	0x4
  615 026b 57       		.byte	0x57
  616 026c 7A000000 		.4byte	0x7a
@@ -655,10 +655,10 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  622 0278 7A000000 		.4byte	0x7a
  623 027c 1C       		.byte	0x1c
  624 027d 09       		.uleb128 0x9
- 625 027e F0030000 		.4byte	.LASF40
+ 625 027e FF030000 		.4byte	.LASF40
  626 0282 04       		.byte	0x4
  627 0283 59       		.byte	0x59
-ARM GAS  /tmp/ccOGboJo.s 			page 12
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 12
 
 
  628 0284 7A000000 		.4byte	0x7a
@@ -676,13 +676,13 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  640 029c 7A000000 		.4byte	0x7a
  641 02a0 28       		.byte	0x28
  642 02a1 09       		.uleb128 0x9
- 643 02a2 66040000 		.4byte	.LASF42
+ 643 02a2 75040000 		.4byte	.LASF42
  644 02a6 04       		.byte	0x4
  645 02a7 5D       		.byte	0x5d
  646 02a8 7A000000 		.4byte	0x7a
  647 02ac 2C       		.byte	0x2c
  648 02ad 09       		.uleb128 0x9
- 649 02ae 33020000 		.4byte	.LASF43
+ 649 02ae 42020000 		.4byte	.LASF43
  650 02b2 04       		.byte	0x4
  651 02b3 5E       		.byte	0x5e
  652 02b4 7A000000 		.4byte	0x7a
@@ -700,31 +700,31 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  664 02cc F6020000 		.4byte	0x2f6
  665 02d0 40       		.byte	0x40
  666 02d1 09       		.uleb128 0x9
- 667 02d2 21010000 		.4byte	.LASF46
+ 667 02d2 5F010000 		.4byte	.LASF46
  668 02d6 04       		.byte	0x4
  669 02d7 62       		.byte	0x62
  670 02d8 FD020000 		.4byte	0x2fd
  671 02dc 48       		.byte	0x48
  672 02dd 09       		.uleb128 0x9
- 673 02de 76040000 		.4byte	.LASF47
+ 673 02de 85040000 		.4byte	.LASF47
  674 02e2 04       		.byte	0x4
  675 02e3 63       		.byte	0x63
  676 02e4 0D030000 		.4byte	0x30d
  677 02e8 A8       		.byte	0xa8
  678 02e9 09       		.uleb128 0x9
- 679 02ea 39010000 		.4byte	.LASF48
+ 679 02ea 77010000 		.4byte	.LASF48
  680 02ee 04       		.byte	0x4
  681 02ef 64       		.byte	0x64
  682 02f0 7A000000 		.4byte	0x7a
  683 02f4 D8       		.byte	0xd8
  684 02f5 00       		.byte	0
-ARM GAS  /tmp/ccOGboJo.s 			page 13
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 13
 
 
  685 02f6 02       		.uleb128 0x2
  686 02f7 08       		.byte	0x8
  687 02f8 04       		.byte	0x4
- 688 02f9 78020000 		.4byte	.LASF49
+ 688 02f9 87020000 		.4byte	.LASF49
  689 02fd 06       		.uleb128 0x6
  690 02fe F6020000 		.4byte	0x2f6
  691 0302 0D030000 		.4byte	0x30d
@@ -740,7 +740,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  701 031b 0B       		.byte	0xb
  702 031c 00       		.byte	0
  703 031d 03       		.uleb128 0x3
- 704 031e 29020000 		.4byte	.LASF50
+ 704 031e 38020000 		.4byte	.LASF50
  705 0322 04       		.byte	0x4
  706 0323 65       		.byte	0x65
  707 0324 2D020000 		.4byte	0x22d
@@ -755,7 +755,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  716 0339 04       		.byte	0x4
  717 033a 9D000000 		.4byte	0x9d
  718 033e 0D       		.uleb128 0xd
- 719 033f 62020000 		.4byte	.LASF52
+ 719 033f 71020000 		.4byte	.LASF52
  720 0343 04       		.byte	0x4
  721 0344 68       		.byte	0x68
  722 0345 88000000 		.4byte	0x88
@@ -770,7 +770,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  731 035a 6A       		.byte	0x6a
  732 035b 28020000 		.4byte	0x228
  733 035f 0D       		.uleb128 0xd
- 734 0360 FF030000 		.4byte	.LASF55
+ 734 0360 0E040000 		.4byte	.LASF55
  735 0364 04       		.byte	0x4
  736 0365 6B       		.byte	0x6b
  737 0366 28030000 		.4byte	0x328
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  739 036b 5F000000 		.4byte	.LASF56
  740 036f 04       		.byte	0x4
  741 0370 6C       		.byte	0x6c
-ARM GAS  /tmp/ccOGboJo.s 			page 14
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 14
 
 
  742 0371 98000000 		.4byte	0x98
@@ -805,7 +805,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  763 03a4 04       		.byte	0x4
  764 03a5 0F010000 		.4byte	0x10f
  765 03a9 0F       		.uleb128 0xf
- 766 03aa D6010000 		.4byte	.LASF58
+ 766 03aa E5010000 		.4byte	.LASF58
  767 03ae 01       		.byte	0x1
  768 03af 21       		.byte	0x21
  769 03b0 00000000 		.4byte	.LFB1
@@ -820,7 +820,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  778 03c5 5E000000 		.4byte	0x5e
  779 03c9 3A000000 		.4byte	.LLST0
  780 03cd 12       		.uleb128 0x12
- 781 03ce 18020000 		.4byte	.LASF17
+ 781 03ce 27020000 		.4byte	.LASF17
  782 03d2 01       		.byte	0x1
  783 03d3 21       		.byte	0x21
  784 03d4 25000000 		.4byte	0x25
@@ -838,10 +838,10 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  796 03f2 7A000000 		.4byte	0x7a
  797 03f6 AF000000 		.4byte	.LLST3
  798 03fa 12       		.uleb128 0x12
-ARM GAS  /tmp/ccOGboJo.s 			page 15
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 15
 
 
- 799 03fb A1010000 		.4byte	.LASF20
+ 799 03fb DF010000 		.4byte	.LASF20
  800 03ff 01       		.byte	0x1
  801 0400 21       		.byte	0x21
  802 0401 7A000000 		.4byte	0x7a
@@ -851,7 +851,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  806 040e 32040000 		.4byte	0x432
  807 0412 00       		.byte	0
  808 0413 0F       		.uleb128 0xf
- 809 0414 D3030000 		.4byte	.LASF59
+ 809 0414 E2030000 		.4byte	.LASF59
  810 0418 01       		.byte	0x1
  811 0419 1A       		.byte	0x1a
  812 041a 00000000 		.4byte	.LFB0
@@ -864,8 +864,8 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  819 042d 32040000 		.4byte	0x432
  820 0431 00       		.byte	0
  821 0432 13       		.uleb128 0x13
- 822 0433 4E040000 		.4byte	.LASF63
- 823 0437 4E040000 		.4byte	.LASF63
+ 822 0433 5D040000 		.4byte	.LASF63
+ 823 0437 5D040000 		.4byte	.LASF63
  824 043b 00       		.byte	0
  825              		.section	.debug_abbrev,"",%progbits
  826              	.Ldebug_abbrev0:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  853 001a 03       		.uleb128 0x3
  854 001b 0E       		.uleb128 0xe
  855 001c 00       		.byte	0
-ARM GAS  /tmp/ccOGboJo.s 			page 16
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 16
 
 
  856 001d 00       		.byte	0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  910 0053 0B       		.uleb128 0xb
  911 0054 3A       		.uleb128 0x3a
  912 0055 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccOGboJo.s 			page 17
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 17
 
 
  913 0056 3B       		.uleb128 0x3b
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  967 008c 3A       		.uleb128 0x3a
  968 008d 0B       		.uleb128 0xb
  969 008e 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccOGboJo.s 			page 18
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 18
 
 
  970 008f 0B       		.uleb128 0xb
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  1024 00c6 01       		.uleb128 0x1
  1025 00c7 13       		.uleb128 0x13
  1026 00c8 00       		.byte	0
-ARM GAS  /tmp/ccOGboJo.s 			page 19
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 19
 
 
  1027 00c9 00       		.byte	0
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  1081              		.section	.debug_loc,"",%progbits
  1082              	.Ldebug_loc0:
  1083              	.LLST5:
-ARM GAS  /tmp/ccOGboJo.s 			page 20
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 20
 
 
  1084 0000 00000000 		.4byte	.LVL8
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  1138 007f F5       		.byte	0xf5
  1139 0080 40       		.uleb128 0x40
  1140 0081 25       		.uleb128 0x25
-ARM GAS  /tmp/ccOGboJo.s 			page 21
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 21
 
 
  1141 0082 9F       		.byte	0x9f
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  1195 0000 2C000000 		.4byte	0x2c
  1196 0004 0200     		.2byte	0x2
  1197 0006 00000000 		.4byte	.Ldebug_info0
-ARM GAS  /tmp/ccOGboJo.s 			page 22
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 22
 
 
  1198 000a 04       		.byte	0x4
@@ -1285,8 +1285,8 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  1219 001c 00000000 		.4byte	0
  1220              		.section	.debug_line,"",%progbits
  1221              	.Ldebug_line0:
- 1222 0000 CB010000 		.section	.debug_str,"MS",%progbits,1
- 1222      02006601 
+ 1222 0000 19020000 		.section	.debug_str,"MS",%progbits,1
+ 1222      0200B401 
  1222      00000201 
  1222      FB0E0D00 
  1222      01010101 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  1236      61676500 
  1237              	.LASF18:
  1238 0040 64697265 		.ascii	"direction\000"
-ARM GAS  /tmp/ccOGboJo.s 			page 23
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 23
 
 
  1238      6374696F 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  1262      6E00
  1263              	.LASF19:
  1264 00db 72656365 		.ascii	"receivingSensor\000"
-ARM GAS  /tmp/ccOGboJo.s 			page 24
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 24
 
 
  1264      6976696E 
@@ -1405,241 +1405,245 @@ ARM GAS  /tmp/ccOGboJo.s 			page 1
  1274 0117 72656365 		.ascii	"receiving\000"
  1274      6976696E 
  1274      6700
- 1275              	.LASF46:
- 1276 0121 64757261 		.ascii	"durations\000"
- 1276      74696F6E 
- 1276      7300
- 1277              	.LASF2:
- 1278 012b 756E7369 		.ascii	"unsigned char\000"
- 1278      676E6564 
- 1278      20636861 
- 1278      7200
- 1279              	.LASF48:
- 1280 0139 696E7465 		.ascii	"interruptedListening\000"
- 1280      72727570 
- 1280      7465644C 
- 1280      69737465 
- 1280      6E696E67 
- 1281              	.LASF30:
- 1282 014e 646F6E65 		.ascii	"done\000"
- 1282      00
- 1283              	.LASF24:
- 1284 0153 6D657373 		.ascii	"messagesBegin\000"
- 1284      61676573 
- 1284      42656769 
- 1284      6E00
- 1285              	.LASF1:
- 1286 0161 7369676E 		.ascii	"signed char\000"
- 1286      65642063 
- 1286      68617200 
- 1287              	.LASF10:
- 1288 016d 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1288      206C6F6E 
- 1288      6720756E 
- 1288      7369676E 
- 1288      65642069 
-ARM GAS  /tmp/ccOGboJo.s 			page 25
+ 1275              	.LASF62:
+ 1276 0121 443A5C46 		.ascii	"D:\\Foundation of Robotics\\e puck 2\\Epuck 2G\\epu"
+ 1276      6F756E64 
+ 1276      6174696F 
+ 1276      6E206F66 
+ 1276      20526F62 
+ 1277 0150 636B3267 		.ascii	"ck2g\\MyProject\000"
+ 1277      5C4D7950 
+ 1277      726F6A65 
+ 1277      637400
+ 1278              	.LASF46:
+ 1279 015f 64757261 		.ascii	"durations\000"
+ 1279      74696F6E 
+ 1279      7300
+ 1280              	.LASF2:
+ 1281 0169 756E7369 		.ascii	"unsigned char\000"
+ 1281      676E6564 
+ 1281      20636861 
+ 1281      7200
+ 1282              	.LASF48:
+ 1283 0177 696E7465 		.ascii	"interruptedListening\000"
+ 1283      72727570 
+ 1283      7465644C 
+ 1283      69737465 
+ 1283      6E696E67 
+ 1284              	.LASF30:
+ 1285 018c 646F6E65 		.ascii	"done\000"
+ 1285      00
+ 1286              	.LASF24:
+ 1287 0191 6D657373 		.ascii	"messagesBegin\000"
+ 1287      61676573 
+ 1287      42656769 
+ 1287      6E00
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 25
 
 
- 1289              	.LASF36:
- 1290 0184 74797065 		.ascii	"type\000"
- 1290      00
- 1291              	.LASF38:
- 1292 0189 70756C73 		.ascii	"pulseState\000"
- 1292      65537461 
- 1292      746500
- 1293              	.LASF11:
- 1294 0194 756E7369 		.ascii	"unsigned int\000"
- 1294      676E6564 
- 1294      20696E74 
- 1294      00
- 1295              	.LASF20:
- 1296 01a1 6572726F 		.ascii	"error\000"
- 1296      7200
- 1297              	.LASF62:
- 1298 01a7 2F686F6D 		.ascii	"/home/uos/Documents/epuck2g/epuck2g/MyProject/\000"
- 1298      652F756F 
- 1298      732F446F 
- 1298      63756D65 
- 1298      6E74732F 
- 1299              	.LASF58:
- 1300 01d6 6972636F 		.ascii	"ircomPushMessage\000"
- 1300      6D507573 
- 1300      684D6573 
- 1300      73616765 
- 1300      00
- 1301              	.LASF34:
- 1302 01e7 636F6E74 		.ascii	"continuousListening\000"
- 1302      696E756F 
- 1302      75734C69 
- 1302      7374656E 
- 1302      696E6700 
- 1303              	.LASF27:
- 1304 01fb 74696D65 		.ascii	"time\000"
- 1304      00
- 1305              	.LASF6:
- 1306 0200 73686F72 		.ascii	"short unsigned int\000"
- 1306      7420756E 
- 1306      7369676E 
- 1306      65642069 
- 1306      6E7400
- 1307              	.LASF15:
- 1308 0213 63686172 		.ascii	"char\000"
- 1308      00
- 1309              	.LASF17:
- 1310 0218 64697374 		.ascii	"distance\000"
- 1310      616E6365 
- 1310      00
- 1311              	.LASF13:
- 1312 0221 696E7431 		.ascii	"int16_t\000"
- 1312      365F7400 
- 1313              	.LASF50:
- 1314 0229 4972636F 		.ascii	"IrcomSend\000"
- 1314      6D53656E 
- 1314      6400
- 1315              	.LASF43:
-ARM GAS  /tmp/ccOGboJo.s 			page 26
+ 1288              	.LASF1:
+ 1289 019f 7369676E 		.ascii	"signed char\000"
+ 1289      65642063 
+ 1289      68617200 
+ 1290              	.LASF10:
+ 1291 01ab 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1291      206C6F6E 
+ 1291      6720756E 
+ 1291      7369676E 
+ 1291      65642069 
+ 1292              	.LASF36:
+ 1293 01c2 74797065 		.ascii	"type\000"
+ 1293      00
+ 1294              	.LASF38:
+ 1295 01c7 70756C73 		.ascii	"pulseState\000"
+ 1295      65537461 
+ 1295      746500
+ 1296              	.LASF11:
+ 1297 01d2 756E7369 		.ascii	"unsigned int\000"
+ 1297      676E6564 
+ 1297      20696E74 
+ 1297      00
+ 1298              	.LASF20:
+ 1299 01df 6572726F 		.ascii	"error\000"
+ 1299      7200
+ 1300              	.LASF58:
+ 1301 01e5 6972636F 		.ascii	"ircomPushMessage\000"
+ 1301      6D507573 
+ 1301      684D6573 
+ 1301      73616765 
+ 1301      00
+ 1302              	.LASF34:
+ 1303 01f6 636F6E74 		.ascii	"continuousListening\000"
+ 1303      696E756F 
+ 1303      75734C69 
+ 1303      7374656E 
+ 1303      696E6700 
+ 1304              	.LASF27:
+ 1305 020a 74696D65 		.ascii	"time\000"
+ 1305      00
+ 1306              	.LASF6:
+ 1307 020f 73686F72 		.ascii	"short unsigned int\000"
+ 1307      7420756E 
+ 1307      7369676E 
+ 1307      65642069 
+ 1307      6E7400
+ 1308              	.LASF15:
+ 1309 0222 63686172 		.ascii	"char\000"
+ 1309      00
+ 1310              	.LASF17:
+ 1311 0227 64697374 		.ascii	"distance\000"
+ 1311      616E6365 
+ 1311      00
+ 1312              	.LASF13:
+ 1313 0230 696E7431 		.ascii	"int16_t\000"
+ 1313      365F7400 
+ 1314              	.LASF50:
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 26
 
 
- 1316 0233 73706163 		.ascii	"spaceSwitchCount\000"
- 1316      65537769 
- 1316      74636843 
- 1316      6F756E74 
- 1316      00
- 1317              	.LASF25:
- 1318 0244 6D657373 		.ascii	"messagesEnd\000"
- 1318      61676573 
- 1318      456E6400 
- 1319              	.LASF8:
- 1320 0250 6C6F6E67 		.ascii	"long unsigned int\000"
- 1320      20756E73 
- 1320      69676E65 
- 1320      6420696E 
- 1320      7400
- 1321              	.LASF52:
- 1322 0262 6972636F 		.ascii	"ircom_last_ir_scan_id\000"
- 1322      6D5F6C61 
- 1322      73745F69 
- 1322      725F7363 
- 1322      616E5F69 
- 1323              	.LASF49:
- 1324 0278 646F7562 		.ascii	"double\000"
- 1324      6C6500
- 1325              	.LASF14:
- 1326 027f 6972636F 		.ascii	"ircomWord\000"
- 1326      6D576F72 
- 1326      6400
- 1327              	.LASF28:
- 1328 0289 4972636F 		.ascii	"Ircom\000"
- 1328      6D00
- 1329              	.LASF60:
- 1330 028f 474E5520 		.ascii	"GNU C11 7.2.1 20170904 (release) [ARM/embedded-7-br"
- 1330      43313120 
- 1330      372E322E 
- 1330      31203230 
- 1330      31373039 
- 1331 02c2 616E6368 		.ascii	"anch revision 255204] -mcpu=cortex-m4 -mfloat-abi=h"
- 1331      20726576 
- 1331      6973696F 
- 1331      6E203235 
- 1331      35323034 
- 1332 02f5 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
- 1332      2D6D6670 
- 1332      753D6670 
- 1332      76342D73 
- 1332      702D6431 
- 1333 0328 2D676764 		.ascii	"-ggdb -O2 -fomit-frame-pointer -falign-functions=16"
- 1333      62202D4F 
- 1333      32202D66 
- 1333      6F6D6974 
- 1333      2D667261 
- 1334 035b 202D666E 		.ascii	" -fno-strict-aliasing -fstack-protector-all -ffunct"
- 1334      6F2D7374 
- 1334      72696374 
- 1334      2D616C69 
- 1334      6173696E 
-ARM GAS  /tmp/ccOGboJo.s 			page 27
+ 1315 0238 4972636F 		.ascii	"IrcomSend\000"
+ 1315      6D53656E 
+ 1315      6400
+ 1316              	.LASF43:
+ 1317 0242 73706163 		.ascii	"spaceSwitchCount\000"
+ 1317      65537769 
+ 1317      74636843 
+ 1317      6F756E74 
+ 1317      00
+ 1318              	.LASF25:
+ 1319 0253 6D657373 		.ascii	"messagesEnd\000"
+ 1319      61676573 
+ 1319      456E6400 
+ 1320              	.LASF8:
+ 1321 025f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1321      20756E73 
+ 1321      69676E65 
+ 1321      6420696E 
+ 1321      7400
+ 1322              	.LASF52:
+ 1323 0271 6972636F 		.ascii	"ircom_last_ir_scan_id\000"
+ 1323      6D5F6C61 
+ 1323      73745F69 
+ 1323      725F7363 
+ 1323      616E5F69 
+ 1324              	.LASF49:
+ 1325 0287 646F7562 		.ascii	"double\000"
+ 1325      6C6500
+ 1326              	.LASF14:
+ 1327 028e 6972636F 		.ascii	"ircomWord\000"
+ 1327      6D576F72 
+ 1327      6400
+ 1328              	.LASF28:
+ 1329 0298 4972636F 		.ascii	"Ircom\000"
+ 1329      6D00
+ 1330              	.LASF60:
+ 1331 029e 474E5520 		.ascii	"GNU C11 7.2.1 20170904 (release) [ARM/embedded-7-br"
+ 1331      43313120 
+ 1331      372E322E 
+ 1331      31203230 
+ 1331      31373039 
+ 1332 02d1 616E6368 		.ascii	"anch revision 255204] -mcpu=cortex-m4 -mfloat-abi=h"
+ 1332      20726576 
+ 1332      6973696F 
+ 1332      6E203235 
+ 1332      35323034 
+ 1333 0304 61726420 		.ascii	"ard -mfpu=fpv4-sp-d16 -mno-thumb-interwork -mthumb "
+ 1333      2D6D6670 
+ 1333      753D6670 
+ 1333      76342D73 
+ 1333      702D6431 
+ 1334 0337 2D676764 		.ascii	"-ggdb -O2 -fomit-frame-pointer -falign-functions=16"
+ 1334      62202D4F 
+ 1334      32202D66 
+ 1334      6F6D6974 
+ 1334      2D667261 
+ 1335 036a 202D666E 		.ascii	" -fno-strict-aliasing -fstack-protector-all -ffunct"
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 27
 
 
- 1335 038e 696F6E2D 		.ascii	"ion-sections -fdata-sections -fno-common -fsingle-p"
- 1335      73656374 
- 1335      696F6E73 
- 1335      202D6664 
- 1335      6174612D 
- 1336 03c1 72656369 		.ascii	"recision-constant\000"
- 1336      73696F6E 
- 1336      2D636F6E 
- 1336      7374616E 
- 1336      7400
- 1337              	.LASF59:
- 1338 03d3 6972636F 		.ascii	"ircomFlushMessages\000"
- 1338      6D466C75 
- 1338      73684D65 
- 1338      73736167 
- 1338      657300
- 1339              	.LASF4:
- 1340 03e6 5F5F696E 		.ascii	"__int16_t\000"
- 1340      7431365F 
- 1340      7400
- 1341              	.LASF40:
- 1342 03f0 73776974 		.ascii	"switchCountMax\000"
- 1342      6368436F 
- 1342      756E744D 
- 1342      617800
- 1343              	.LASF55:
- 1344 03ff 6972636F 		.ascii	"ircomSendData\000"
- 1344      6D53656E 
- 1344      64446174 
- 1344      6100
- 1345              	.LASF21:
- 1346 040d 4972636F 		.ascii	"IrcomMessage\000"
- 1346      6D4D6573 
- 1346      73616765 
- 1346      00
- 1347              	.LASF61:
- 1348 041a 2E2E2F65 		.ascii	"../e-puck2_main-processor/src/ircom/ircomMessages.c"
- 1348      2D707563 
- 1348      6B325F6D 
- 1348      61696E2D 
- 1348      70726F63 
- 1349 044d 00       		.ascii	"\000"
- 1350              	.LASF63:
- 1351 044e 5F5F7374 		.ascii	"__stack_chk_fail\000"
- 1351      61636B5F 
- 1351      63686B5F 
- 1351      6661696C 
- 1351      00
- 1352              	.LASF22:
- 1353 045f 70617573 		.ascii	"paused\000"
- 1353      656400
- 1354              	.LASF42:
- 1355 0466 6D61726B 		.ascii	"markSwitchCount\000"
- 1355      53776974 
- 1355      6368436F 
- 1355      756E7400 
- 1356              	.LASF47:
-ARM GAS  /tmp/ccOGboJo.s 			page 28
+ 1335      6F2D7374 
+ 1335      72696374 
+ 1335      2D616C69 
+ 1335      6173696E 
+ 1336 039d 696F6E2D 		.ascii	"ion-sections -fdata-sections -fno-common -fsingle-p"
+ 1336      73656374 
+ 1336      696F6E73 
+ 1336      202D6664 
+ 1336      6174612D 
+ 1337 03d0 72656369 		.ascii	"recision-constant\000"
+ 1337      73696F6E 
+ 1337      2D636F6E 
+ 1337      7374616E 
+ 1337      7400
+ 1338              	.LASF59:
+ 1339 03e2 6972636F 		.ascii	"ircomFlushMessages\000"
+ 1339      6D466C75 
+ 1339      73684D65 
+ 1339      73736167 
+ 1339      657300
+ 1340              	.LASF4:
+ 1341 03f5 5F5F696E 		.ascii	"__int16_t\000"
+ 1341      7431365F 
+ 1341      7400
+ 1342              	.LASF40:
+ 1343 03ff 73776974 		.ascii	"switchCountMax\000"
+ 1343      6368436F 
+ 1343      756E744D 
+ 1343      617800
+ 1344              	.LASF55:
+ 1345 040e 6972636F 		.ascii	"ircomSendData\000"
+ 1345      6D53656E 
+ 1345      64446174 
+ 1345      6100
+ 1346              	.LASF21:
+ 1347 041c 4972636F 		.ascii	"IrcomMessage\000"
+ 1347      6D4D6573 
+ 1347      73616765 
+ 1347      00
+ 1348              	.LASF61:
+ 1349 0429 2E2E2F65 		.ascii	"../e-puck2_main-processor/src/ircom/ircomMessages.c"
+ 1349      2D707563 
+ 1349      6B325F6D 
+ 1349      61696E2D 
+ 1349      70726F63 
+ 1350 045c 00       		.ascii	"\000"
+ 1351              	.LASF63:
+ 1352 045d 5F5F7374 		.ascii	"__stack_chk_fail\000"
+ 1352      61636B5F 
+ 1352      63686B5F 
+ 1352      6661696C 
+ 1352      00
+ 1353              	.LASF22:
+ 1354 046e 70617573 		.ascii	"paused\000"
+ 1354      656400
+ 1355              	.LASF42:
+ 1356 0475 6D61726B 		.ascii	"markSwitchCount\000"
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 28
 
 
- 1357 0476 73776974 		.ascii	"switchCounts\000"
- 1357      6368436F 
- 1357      756E7473 
- 1357      00
- 1358              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
-ARM GAS  /tmp/ccOGboJo.s 			page 29
+ 1356      53776974 
+ 1356      6368436F 
+ 1356      756E7400 
+ 1357              	.LASF47:
+ 1358 0485 73776974 		.ascii	"switchCounts\000"
+ 1358      6368436F 
+ 1358      756E7473 
+ 1358      00
+ 1359              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
+ARM GAS  C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s 			page 29
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 ircomMessages.c
-     /tmp/ccOGboJo.s:18     .text.ircomFlushMessages:0000000000000000 $t
-     /tmp/ccOGboJo.s:26     .text.ircomFlushMessages:0000000000000000 ircomFlushMessages
-     /tmp/ccOGboJo.s:69     .text.ircomFlushMessages:000000000000002c $d
-     /tmp/ccOGboJo.s:75     .text.ircomPushMessage:0000000000000000 $t
-     /tmp/ccOGboJo.s:83     .text.ircomPushMessage:0000000000000000 ircomPushMessage
-     /tmp/ccOGboJo.s:185    .text.ircomPushMessage:00000000000000b4 $d
-     /tmp/ccOGboJo.s:192    .text.ircomPopMessage:0000000000000000 $t
-     /tmp/ccOGboJo.s:200    .text.ircomPopMessage:0000000000000000 ircomPopMessage
-     /tmp/ccOGboJo.s:298    .text.ircomPopMessage:00000000000000a4 $d
+                            *ABS*:00000000 ircomMessages.c
+C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s:18     .text.ircomFlushMessages:00000000 $t
+C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s:26     .text.ircomFlushMessages:00000000 ircomFlushMessages
+C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s:69     .text.ircomFlushMessages:0000002c $d
+C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s:75     .text.ircomPushMessage:00000000 $t
+C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s:83     .text.ircomPushMessage:00000000 ircomPushMessage
+C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s:185    .text.ircomPushMessage:000000b4 $d
+C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s:192    .text.ircomPopMessage:00000000 $t
+C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s:200    .text.ircomPopMessage:00000000 ircomPopMessage
+C:\Users\ksona\AppData\Local\Temp\ccpPSwjO.s:298    .text.ircomPopMessage:000000a4 $d
 
 UNDEFINED SYMBOLS
 __stack_chk_fail
