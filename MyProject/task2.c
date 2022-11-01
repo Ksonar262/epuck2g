@@ -28,7 +28,7 @@ messagebus_t bus;
 MUTEX_DECL(bus_lock);
 CONDVAR_DECL(bus_condvar);
 
-int motor_speed = 500;
+int motor_speed = 700;
 void move_forward(int motor_speed);
 void turn_left( int motor_speed);
 void turn_right(int motor_speed);
@@ -41,10 +41,10 @@ int main(void)
     chSysInit();
     mpu_init();
 
-	messagebus_init(&bus, &bus_lock, &bus_condvar);
-	serial_start();
+    messagebus_init(&bus, &bus_lock, &bus_condvar);
+    serial_start();
 
-	proximity_start();
+    proximity_start();
     calibrate_ir();
     motors_init();
     VL53L0X_start();
@@ -53,10 +53,10 @@ int main(void)
     int str_length0;
     int counter = 0;
     int proxy[8];
-    int INDEX = 0;
-    int SUM = 0;
+    int INDEX[8];
+    int SUM[8];
     int WINDOW_SIZE=5;
-    int READINGS[WINDOW_SIZE];
+    int READINGS[8][WINDOW_SIZE];
     int distance=0;
     int distance1=0;
 
@@ -64,14 +64,14 @@ int main(void)
 
     while (1) {
     	//waits 1 second
-        chThdSleepMilliseconds(25);
+        chThdSleepMilliseconds(30);
 
         for(int i=0; i<=7; i++){
-        	SUM = SUM - READINGS[INDEX];
-        	READINGS[INDEX] = get_calibrated_prox(i);
-        	SUM = SUM + get_calibrated_prox(i);
-        	INDEX = (INDEX+1)%WINDOW_SIZE;
-        	proxy[i] = SUM/WINDOW_SIZE;
+        	SUM[i] = SUM[i] - READINGS[i][INDEX[i]];
+        	READINGS[i][INDEX[i]] = get_calibrated_prox(i);
+        	SUM[i] = SUM[i] + get_calibrated_prox(i);
+        	INDEX[i] = (INDEX[i]+1)%WINDOW_SIZE;
+        	proxy[i] = SUM[i]/WINDOW_SIZE;
         }
 
         if (counter >= 4) {
